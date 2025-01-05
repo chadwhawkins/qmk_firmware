@@ -16,6 +16,9 @@
 
 #pragma once
 
+#define RGBLIGHT_DEFAULT_ON false
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+
 #ifdef LED_MATRIX_ENABLE
 /* LED Matrix Driver Configuration */
 #    define DRIVER_COUNT 1
