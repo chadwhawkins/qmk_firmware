@@ -16,7 +16,6 @@
 
 #pragma once
 
-#define RGBLIGHT_DEFAULT_ON false
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 
 #ifdef LED_MATRIX_ENABLE
@@ -49,4 +48,7 @@
 /* Set LED driver current */
 #    define CKLED2001_CURRENT_TUNE \
         { 0x1d, 0x1d, 0x1d, 0x1d, 0x1d, 0x1d, 0x1d, 0x1d, 0x1d, 0x1d, 0x1d, 0x1d }
+
+#    define LED_MATRIX_DEFAULT_ON false
+#    define LED_MATRIX_DEFAULT_MODE LED_MATRIX_NONE
 #endif
